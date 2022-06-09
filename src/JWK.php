@@ -62,7 +62,7 @@ class JWK
     /**
      * Parse a JWK key
      * @param $source
-     * @return resource|array an associative array represents the key
+     * @return OpenSSLAsymmetricKey|resource an associative array represents the key
      */
     public static function parseKey($source)
     {
